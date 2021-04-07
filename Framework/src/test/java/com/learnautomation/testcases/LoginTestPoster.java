@@ -29,6 +29,6 @@ public class LoginTestPoster extends BaseClass {
 			logger.pass("Login Test Successful");
 		else
 			logger.fail("Login Test Failed");
-		Assert.assertEquals("MY ACCOUN", driver.findElement(By.xpath("//h1")).getText());		
+		Assert.assertEquals("MY ACCOUNT", driver.findElement(By.xpath("//h1")).getText());		
 	}
 }
