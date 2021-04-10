@@ -12,7 +12,6 @@ public class ExcelDataProvider {
 	XSSFWorkbook wb;
 	public ExcelDataProvider() {
 		//Loading Excel Sheet and making it ready to use
-		// Removing hard coded file path.
 		try {
 			
 			File src = new File(System.getProperty("user.dir")+new ConfigDataProvider().getLoginExcelPath());
