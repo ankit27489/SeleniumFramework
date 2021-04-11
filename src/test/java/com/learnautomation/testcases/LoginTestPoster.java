@@ -16,7 +16,7 @@ public class LoginTestPoster extends BaseClass {
 		
 		logger = report.createTest("PosterGullyLoginTest");
 		
-//		SoftAssert softAssert = new SoftAssert();
+////		SoftAssert softAssert = new SoftAssert();
 		String uname = edp.getStringData("Login", 0, 0);
 		String pwd = edp.getStringData("Login", 0, 1);
 		
